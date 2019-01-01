@@ -26,9 +26,7 @@ Your prompt may tell you what directory you're currently looking at. But there's
 
 At the prompt, type
 
-~~~
-$ pwd {{execute}}
-~~~
+`pwd {{execute}}`
 
 
 The command prints the full path to the current directory to the screen:

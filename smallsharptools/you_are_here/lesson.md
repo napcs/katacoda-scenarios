@@ -9,7 +9,7 @@ his is the *prompt*, and it's the CLI's way of telling you it's ready for you to
 
 
 ~~~
-puzzles:~ brianhogan$
+d184018798b0:~ root$
 ~~~
 
 These prompts may look cryptic at first, but there's valuable information here. The prompts in these examples show the username (brianhogan), the computer's hostname (puzzles), and the current directory, which is represented by a tilde (~), which always refers to your home directory.
@@ -26,7 +26,7 @@ Your prompt may tell you what directory you're currently looking at. But there's
 
 At the prompt, type
 
-`pwd` {{execute}}
+`pwd`{{execute}}
 
 
 The command prints the full path to the current directory to the screen:
@@ -35,5 +35,7 @@ The command prints the full path to the current directory to the screen:
 ```
 /home/scrapbook
 ```
+
+Using `pwd` is a good way to make sure you're always in the directory you want to be in before you run a command.
 
 

@@ -15,7 +15,16 @@
         "title": "Changing Directories",
         "text": "changing_dirs/lesson.md",
          "verify": "changing_dirs/verify.sh"
-      }
+      },
+      {
+        "title": "Creating Text Files",
+        "text": "creating_file/lesson.md",
+         "verify": "creating_file/verify.sh"
+      },
+      {
+        "title": "Viewing Files",
+        "text": "viewing_file/lesson.md"
+      },
     ],
     "intro": {
       "text": "intro.md",

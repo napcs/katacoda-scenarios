@@ -5,9 +5,7 @@
     "steps": [
       {
         "title": "You Are Here",
-        "text": "you_are_here/lesson.md",
-        "code": "start.sh",
-        "courseData": "configure_env.sh"
+        "text": "you_are_here/lesson.md"
       },
       {
         "title": "Listing Contents",
@@ -16,12 +14,12 @@
       {
         "title": "Changing Directories",
         "text": "changing_dirs/lesson.md",
-         "verify": "changing_dirs/verify.sh"
+        "verify": "changing_dirs/verify.sh"
       },
       {
         "title": "Creating Text Files",
         "text": "creating_file/lesson.md",
-         "verify": "creating_file/verify.sh"
+        "verify": "creating_file/verify.sh"
       },
       {
         "title": "Viewing Files",
@@ -29,7 +27,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "configure_env.sh",
+      "code": "start.sh"
     },
     "finish": {
       "text": "finish.md"

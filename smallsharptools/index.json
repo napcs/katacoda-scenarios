@@ -5,7 +5,9 @@
     "steps": [
       {
         "title": "You Are Here",
-        "text": "you_are_here/lesson.md"
+        "text": "you_are_here/lesson.md",
+        "code": "start.sh",
+        "courseData": "configure_env.sh"
       },
       {
         "title": "Listing Contents",
@@ -28,8 +30,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "start.sh",
-      "courseData": "configure_env.sh"
     },
     "finish": {
       "text": "finish.md"

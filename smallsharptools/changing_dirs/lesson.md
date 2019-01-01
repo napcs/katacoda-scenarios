@@ -3,14 +3,11 @@ Using the CLI, navigate to your Desktop directory using the `cd` command.  The `
 Type this command to navigate to the `Desktop` directory:
 
 
-~~~command
-$ cd Desktop
-~~~
+`cd Desktop`{{ execute }}
 
 
 You're now in the `Desktop` directory, which you can verify with the `pwd` command just to make sure:
 
+`pwd`{{ execute }}
 
-~~~command
-$ pwd
-~~~
+

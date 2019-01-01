@@ -18,12 +18,21 @@
       },
       {
         "title": "Creating Text Files",
-        "text": "creating_file/lesson.md",
-        "verify": "creating_file/verify.sh"
+        "text": "creating_files/lesson.md",
+        "verify": "creating_files/verify.sh"
       },
       {
         "title": "Viewing Files",
-        "text": "viewing_file/lesson.md"
+        "text": "viewing_files/lesson.md"
+      },
+      {
+        "title": "Viewing Longer Files",
+        "text": "viewing_long_files/lesson.md"
+      },
+      {
+        "title": "Creating Directories",
+        "text": "creating_dirs/lesson.md",
+        "verify": "creating_dirs/verify.sh"
       }
     ],
     "intro": {

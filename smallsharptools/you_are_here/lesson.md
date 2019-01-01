@@ -1,23 +1,19 @@
 
 When you first open the command line interface, or CLI, you'll be presented with something that looks like this:
 
-
 ~~~
-$
+root@d184018798b0:~$
 ~~~
 
-
-
-
-This is the *prompt*, and it's the CLI's way of telling you it's ready for you to type a command.
-
-
-Depending on your operating system's configuration, your prompt may show more information. This prompt is from the Ubuntu operating system:
+his is the *prompt*, and it's the CLI's way of telling you it's ready for you to type a command. This prompt is from the Ubuntu operating system. If you're on a Mac, your prompt might look like this:
 
 
 ~~~
-brianhogan@puzzles:~$
+puzzles:~ brianhogan$
 ~~~
+
+These prompts may look cryptic at first, but there's valuable information here. The prompts in these examples show the username (brianhogan), the computer's hostname (puzzles), and the current directory, which is represented by a tilde (~), which always refers to your home directory.
+
 
 When you open the command line interface, you'll be placed in your "home directory".
 
@@ -30,8 +26,8 @@ Your prompt may tell you what directory you're currently looking at. But there's
 
 At the prompt, type
 
-~~~command
-$ pwd
+~~~
+$ pwd {{execute}}
 ~~~
 
 

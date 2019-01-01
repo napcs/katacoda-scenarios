@@ -1,24 +1,18 @@
 When you issued the command
 
 
-~~~command
-$ cat greetings.txt
-~~~
+`cat greetings.txt`{{ execute }}
 
 the contents of the file were displayed on the screen. Since the file was small, it all fit on one screen. But try reading the contents of a much larger file and see what happens. Your OS contains a dictionary of words located at `/usr/share/dict/words`. Use the `cat` command to display its contents.
 
 
-~~~command
-$ cat /usr/share/dict/words
-~~~
+`cat /usr/share/dict/words`{{ execute }}
 
 You'll see the contents of the file scroll by until it reaches the end. You'll encounter this a lot when working on the command line. You might have the source code to a program you're working on, a document you're editing, or a log file you're using to diagnose an issue.
 
 The `less` and `more` programs can read files too, so you can read the contents of that huge dictionary file:
 
-~~~command
-$ less /usr/share/dict/words
-~~~
+`less /usr/share/dict/words`{{ execute }}
 
 
 The contents will be displayed one page at a time. Use the `Enter` key to display the next line, the `Spacebar` to jump to the next page, and the `Q` key to exit and return to your prompt.

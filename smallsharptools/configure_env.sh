@@ -1,5 +1,3 @@
-# Brian's startup script
-
 # Create directory structure
 mkdir /home/scrapbook/{Desktop,Documents,Downloads,Music,Pictures,Public,Templates,Videos}
 

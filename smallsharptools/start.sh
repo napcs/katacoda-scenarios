@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # let's get out of the `tutorial` directory - can't figure out what puts me in there
 # by default
 cd

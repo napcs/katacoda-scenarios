@@ -16,11 +16,17 @@ will always return you to your home directory, no matter where you are.
 Try these commands out:
 
 `cd /var`{{ execute}}
+
 `pwd`{{ execute}}
+
 `cd`{{ execute}}
+
 `pwd`{{ execute}}
+
 `cd /usr/`{{ execute}}
+
 `pwd`{{ execute}}
+
 `cd`{{ execute}}
 
 

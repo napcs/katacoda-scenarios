@@ -42,6 +42,16 @@
         "title": "Installing Programs",
         "text": "installing_programs/lesson.md",
         "verify": "installing_programs/verify.sh"
+      },
+      {
+        "title": "Exercise 1",
+        "text": "exercises/1.md",
+        "verify": "exercises/1.sh"
+      },
+      {
+        "title": "Exercise 2",
+        "text": "exercises/2.md",
+        "verify": "exercises/2.sh"
       }
     ],
     "intro": {

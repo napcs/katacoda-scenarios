@@ -40,7 +40,8 @@
       },
       {
         "title": "Installing Programs",
-        "text": "installing_programs/lesson.md"
+        "text": "installing_programs/lesson.md",
+        "verify": "installing_programs/verify.sh"
       }
     ],
     "intro": {

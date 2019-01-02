@@ -1,1 +1,1 @@
-[ $(cat /home/scrapbook/tutorial/todo.txt) = "This is my todo list" ] && echo "done"
+[ $(cat /home/scrapbook/homework/todo.txt) = "This is my todo list" ] && echo "done"

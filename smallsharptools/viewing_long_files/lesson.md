@@ -12,7 +12,7 @@ You'll see the contents of the file scroll by until it reaches the end. You'll e
 
 The `less` and `more` programs can read files too, so you can read the contents of that huge dictionary file:
 
-`less /usr/share/dict/words`{{ execute }}
+`less /usr/share/dict/words`
 
 
 The contents will be displayed one page at a time. Use the `Enter` key to display the next line, the `Spacebar` to jump to the next page, and the `Q` key to exit and return to your prompt.

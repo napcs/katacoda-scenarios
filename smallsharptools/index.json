@@ -33,6 +33,14 @@
         "title": "Creating Directories",
         "text": "creating_dirs/lesson.md",
         "verify": "creating_dirs/verify.sh"
+      },
+      {
+        "title": "There's No Place Like Home",
+        "text": "no_place_like_home/lesson.md"
+      },
+      {
+        "title": "Installing Programs",
+        "text": "installing_programs/lesson.md"
       }
     ],
     "intro": {

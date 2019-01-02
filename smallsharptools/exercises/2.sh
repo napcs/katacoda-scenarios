@@ -1,1 +1,1 @@
-[ $(cat /home/scrapbook/homework/todo.txt) = "This is my todo list" ] && echo "done"
+grep -q "^This is my todo list$" /home/scrapbook/homework/todo.txt && echo "done"

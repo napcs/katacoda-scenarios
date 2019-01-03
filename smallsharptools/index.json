@@ -48,6 +48,14 @@
         "verify": "installing_programs/verify.sh"
       },
       {
+        "title": "Autocompletion",
+        "text": "autocompletion/lesson.md"
+      },
+      {
+        "title": "Useful Shortcuts",
+        "text": "shortcuts/lesson.md"
+      },
+      {
         "title": "Exercise 1",
         "text": "exercises/1.md",
         "verify": "exercises/1.sh"

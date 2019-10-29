@@ -11,4 +11,4 @@ Once you have a working solution, enter it here:
 >>Q1: Enter the command here:<<
 =~= echo "one two three" | awk '{print $3}'
 
-
+If you're stumped, show the answer.

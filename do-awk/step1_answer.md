@@ -1,5 +1,6 @@
 The command to complete this exercise is
 
-` awk '{sum += $1} END {print sum}' numbers.txt`{{ execute }}
+`echo "one two three" | awk '{print $3}'`{{ execute }}
 
 Try it out, hide the answer, then fill in your answer.
+

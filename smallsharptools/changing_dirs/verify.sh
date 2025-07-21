@@ -1,3 +1,1 @@
-# unable to check current dir with pwd unfortunately.
-# [ $(pwd) == "/home/scrapbook/Desktop" ] && echo "done"
-echo "done"
+export PWD=$(pwdx 1) && [ "$PWD" == "1: /home/scrapbook/Desktop" ] && echo "done"

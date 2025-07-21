@@ -68,8 +68,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "configure_env.sh",
-      "code": "start.sh"
+      "background": "configure_env.sh",
+      "foreground": "start.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -79,6 +79,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "ubuntu"
   }
 }

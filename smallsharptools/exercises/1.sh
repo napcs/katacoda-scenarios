@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/homework ] && echo "done"
+[ -d ~/homework ] && echo "done"

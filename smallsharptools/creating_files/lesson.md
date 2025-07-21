@@ -2,7 +2,7 @@ The `echo` command takes text and prints it back to the screen. At the prompt, t
 
 `echo Hello there`{{ execute }}
 
-You'll see the text you entered printed back to you. 
+You'll see the text you entered printed back to you.
 
 ~~~
 Hello there

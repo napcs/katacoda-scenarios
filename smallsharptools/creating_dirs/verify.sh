@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/Desktop/website ] && echo "done"
+[ -d ~/Desktop/website ] && echo "done"

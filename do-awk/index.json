@@ -1,0 +1,32 @@
+{
+  "title": "How To Use the AWK language to Manipulate Text in Linux",
+  "description": "Awk is a programming language and utility to manipulate and process text.",
+  "difficulty": "Intermediate",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "answer": "step1_answer.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md",
+        "answer": "step2_answer.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu1804"
+  }
+}

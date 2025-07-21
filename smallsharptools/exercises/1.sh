@@ -1,0 +1,1 @@
+[ -d ~/homework ] && echo "done"

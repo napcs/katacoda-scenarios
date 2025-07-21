@@ -5,9 +5,7 @@
     "steps": [
       {
         "title": "You Are Here",
-        "text": "you_are_here/lesson.md",
-        "code": "start.sh",
-        "courseData": "configure_env.sh"
+        "text": "you_are_here/lesson.md"
       },
       {
         "title": "Listing Contents",
@@ -16,20 +14,62 @@
       {
         "title": "Changing Directories",
         "text": "changing_dirs/lesson.md",
-         "verify": "changing_dirs/verify.sh"
+        "verify": "changing_dirs/verify.sh"
       },
       {
         "title": "Creating Text Files",
-        "text": "creating_file/lesson.md",
-         "verify": "creating_file/verify.sh"
+        "text": "creating_files/lesson.md",
+        "verify": "creating_files/verify.sh"
       },
       {
         "title": "Viewing Files",
-        "text": "viewing_file/lesson.md"
+        "text": "viewing_files/lesson.md"
+      },
+      {
+        "title": "Viewing Longer Files",
+        "text": "viewing_long_files/lesson.md"
+      },
+      {
+        "title": "Streams of Text",
+        "text": "streams_of_text/lesson.md"
+      },
+      {
+        "title": "Creating Directories",
+        "text": "creating_dirs/lesson.md",
+        "verify": "creating_dirs/verify.sh"
+      },
+      {
+        "title": "There's No Place Like Home",
+        "text": "no_place_like_home/lesson.md"
+      },
+      {
+        "title": "Installing Programs",
+        "text": "installing_programs/lesson.md",
+        "verify": "installing_programs/verify.sh"
+      },
+      {
+        "title": "Autocompletion",
+        "text": "autocompletion/lesson.md"
+      },
+      {
+        "title": "Useful Shortcuts",
+        "text": "shortcuts/lesson.md"
+      },
+      {
+        "title": "Exercise 1",
+        "text": "exercises/1.md",
+        "verify": "exercises/1.sh"
+      },
+      {
+        "title": "Exercise 2",
+        "text": "exercises/2.md",
+        "verify": "exercises/2.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "configure_env.sh",
+      "foreground": "start.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -39,6 +79,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "ubuntu"
   }
 }

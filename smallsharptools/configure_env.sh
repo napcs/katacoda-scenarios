@@ -1,3 +1,10 @@
-#!/bin/bash
-# This doesn't seem to work at all. Background scripts are broken as of 1/1/2019
-# so I've moved everything to foreground which does work.
+# Create directory structure
+mkdir ~/{Desktop,Documents,Downloads,Music,Pictures,Public,Templates,Videos}
+
+# mod the prompt so it looks like a typical prompt.
+echo "export PS1=\"\[\033[38;5;14m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\h:\W\\$ \[$(tput sgr0)\]"\" >> ~/.bashrc
+
+# need the dictionary words because they're not installed.
+# TODO: replace with a different example or upload the file rather than
+# rely on 3rd party
+curl https://raw.githubusercontent.com/eneko/data-repository/master/data/words.txt -o /usr/share/dict/words

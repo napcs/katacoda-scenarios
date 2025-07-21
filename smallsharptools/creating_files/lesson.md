@@ -1,17 +1,20 @@
 The `echo` command takes text and prints it back to the screen. At the prompt, type the following command:
 
-~~~command
-$ echo Hello there
+`echo Hello there`{{ execute }}
+
+You'll see the text you entered printed back to you.
+
+~~~
+Hello there
 ~~~
 
-You'll see the text you entered printed back to you. You'll use `echo` in scripts you write, so you can communicate instructions or output to users. But you can also use it to insert text into files if you combine it with a feature called <firstuse>redirection</firstuse>.
+
+You'll use `echo` in scripts you write, so you can communicate instructions or output to users. But you can also use it to insert text into files if you combine it with a feature called <firstuse>redirection</firstuse>.
 
 Let's create a text file in your `Desktop` directory that contains the text "Hello". We'll call this file `greetings.txt`. At the prompt, type:
 
 
-~~~command
-$ echo Hello > greetings.txt
-~~~
+`echo Hello > greetings.txt`{{ execute }}
 
 
 When you press the `Enter` key you won't see any visual feedback, because the output of the `echo` command was redirected to the file you specified.

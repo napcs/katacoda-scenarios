@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 pid_file="$HOME/.user_shell.pid"
-
+pid=$(<"$pid_file")
 cwd= $(readlink -f "/proc/${pid}/cwd")
 
 if [[ ${cwd} == "${HOME}/Desktop" ]]; then

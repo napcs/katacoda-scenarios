@@ -1,31 +1,40 @@
 # Share your server with Tailscale Funnel
 
-Verify Tailscale is running:
 
-```bash
-tailscale status
-```{{ execute }}
-
-Check Funnel availability:
-
-```bash
-tailscale funnel status
-```{{ execute }}
-
-Start a Funnel that listens on the same port as your server:
+Start a Funnel that listens on the same port you used for your server:
 
 ```bash
 tailscale funnel 3000
 ```{{ execute }}
 
-The response displays URLs you can use to access this service:
-```
-Available within your tailnet:
-  https://your-machine-name.your-tailnet-name.ts.net/
+When you do this the first time, Tailscale provides you with a URL to enable Funnel on your tailnet.
 
-Available on the internet:
-  https://your-machine-name-3000.your-tailnet-name.ts.net/
+```
+Funnel is not enabled on your tailnet.
+To enable, visit:
+
+         https://login.tailscale.com/f/funnel?node=....
 ```
 
-Send the public URL to a friend and have them test it.
+Follow the URL to activate Tailscale Funnel.
+
+Once you've activated Tailscale Funnel on your tailnet, return to your terminal.
+
+The response displays the URL you can use to access this service from anywhere:
+```
+Available on the internet
+
+https://your-machine-name.your-tailnet-name.ts.net/
+|-- proxy http://127.0.0.1:3000
+
+```
+
+Open a new terminal window and test the url:
+
+```bash
+curl https://your-machine-name.your-tailnet-name.ts.net/
+```
+```{{ execute }}
+
+to a friend and have them test it.
 

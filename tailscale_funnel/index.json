@@ -3,8 +3,8 @@
   "description": "Build a Node.js server and share it using Tailscale Funnel.",
   "difficulty": "Intermediate",
   "time": "5 minutes",
-  "environment": {
-    "uilayout": "theia"
+  "interface": {
+    "layout": "ide"
   },
   "backend": {
     "imageid": "ubuntu"

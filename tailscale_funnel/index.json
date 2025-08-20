@@ -11,10 +11,13 @@
   },
   "details": {
     "intro": {
-      "text": "prerequisites.md",
-      "verify": "prerequisites.sh"
+      "text": "intro.md"
     },
     "steps": [
+      {
+        "text": "prerequisites.md",
+        "verify": "prerequisites.sh"
+      },
       {
         "title": "Create a basic Node.js HTTP server",
         "text": "create-server.md"

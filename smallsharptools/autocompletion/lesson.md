@@ -8,14 +8,14 @@ As soon as you press `Tab`, the word `Documents` will expand. This technique ser
 
 
 ~~~
-$ cd
+cd
 ~~~
 
 Then type
 
 
 ~~~
-$ cd D<Tab>
+cd D<Tab>
 ~~~
 
 You won't see anything. This is because Bash doesn't have enough information to do the completion, because you probably have a `Documents` folder as well as a `Downloads` folder.
@@ -31,9 +31,8 @@ Type a few more characters and press <keystroke>Tab</keystroke> to let it autoco
 
 Now try autocompleting `var` from your Home directory:
 
-
 ~~~
-$ cd va<Tab>
+cd va<Tab>
 ~~~
 
 This time, pressing `Tab` doesn't do anything. And pressing it a second time doesn't either, since there's no `var` folder in the current directory. You can use this as a good test while you're learning how to navigate around; if you can't autocomplete the filename or directory, you might not be looking in the right spot.

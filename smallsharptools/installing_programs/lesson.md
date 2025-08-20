@@ -25,8 +25,7 @@ The package manager will install the program. It may ask you to confirm the inst
 You'll see this output:
 
 ~~~
-tree v1.7.0 (c) 1996 - 2014 by Steve Baker, Thomas Moore, Francesc Rocher,
-Florian Sesser, Kyosuke Tokoro
+tree v2.1.1 (c) 1996 - 2023 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
 ~~~
 
 

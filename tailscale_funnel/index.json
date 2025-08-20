@@ -1,0 +1,32 @@
+{
+  "title": "Share a Node.js development server with the public",
+  "description": "Build a Node.js server and share it using Tailscale Funnel.",
+  "details": {
+    "intro": {
+      "text": "prerequisites.md",
+      "verify": "prerequisites.sh"
+    },
+    "steps": [
+      {
+        "title": "Create a basic Node.js HTTP server",
+        "text": "create-server.md"
+      },
+      {
+        "title": "Install Tailscale",
+        "text": "install-tailscale.md"
+      },
+      {
+        "title": "Share your server with Tailscale Funnel",
+        "text": "share-funnel.md"
+      },
+      {
+        "title": "Manage your funnel connection",
+        "text": "manage-funnel.md"
+      },
+      {
+        "title": "Conclusion",
+        "text": "conclusion.md"
+      }
+    ]
+  }
+}

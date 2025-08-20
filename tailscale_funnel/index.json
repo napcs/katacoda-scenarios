@@ -1,6 +1,14 @@
 {
   "title": "Share a Node.js development server with the public",
   "description": "Build a Node.js server and share it using Tailscale Funnel.",
+  "difficulty": "Intermediate",
+  "time": "5 minutes",
+  "environment": {
+    "uilayout": "theia"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
   "details": {
     "intro": {
       "text": "prerequisites.md",

@@ -20,7 +20,12 @@
       },
       {
         "title": "Create a basic Node.js HTTP server",
-        "text": "create-server.md"
+        "text": "create-server.md",
+        "verify": "create-server.sh"
+      },
+      {
+        "title": "Test your server",
+        "text": "test-server.md"
       },
       {
         "title": "Install Tailscale",

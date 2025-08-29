@@ -11,7 +11,8 @@
   },
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "configure_env.sh"
     },
     "steps": [
       {

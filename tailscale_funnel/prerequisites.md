@@ -6,7 +6,7 @@ To complete this tutorial, you need:
 * [Node.js](https://nodejs.org/) installed to run the server.
 * Basic familiarity with command line operations.
 
-Since you're running this interactive terminal, Node.js is already installed for you.
+Since you're running this interactive lab, you'll find that Node.js is already installed for you.
 
 Verify that with the following command:
 

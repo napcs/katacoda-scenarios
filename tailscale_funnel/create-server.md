@@ -89,4 +89,5 @@ Server running at http://localhost:3000
 Press Ctrl+C to stop the server
 ```
 
-With your server running, test it out to verify everything works.
+You'll test your server manually next. Press **Check** to verify the server is running before moving on.
+

@@ -7,14 +7,18 @@ Tailscale Funnel to share it securely with others. You'll create a working
 server, install Tailscale on the machine running the server,
 expose the server through Funnel, and manage the connection.
 
+## How to use the environment
+
 On the right side of the screen is your IDE and terminal. You'll use multiple terminal tabs in
-this lesson. Start with the **Editor** tab selected.
+this lesson.
+
+Start with the **Editor** tab selected.
 
 You don't have to type long commands either. Click on the following command and it
-executes in the terminal:
+executes in the terminal on the right:
 
 ```shell
 echo "Hi from Tailscale"
 ```{{ execute }}
 
-Let's get started.
+Let's get started. Press the **Start** button to continue.

@@ -12,7 +12,7 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "foreground": "configure_env.sh"
+      "background": "configure_env.sh"
     },
     "steps": [
       {
